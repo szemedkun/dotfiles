@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$PATH";
 
 # Add anaconda to path
-export PATH="$PATH:$HOME/anaconda/bin/"
+export PATH="$HOME/anaconda/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
