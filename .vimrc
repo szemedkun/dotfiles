@@ -1,5 +1,5 @@
-" set nocompatible              " be iMproved, required
-" filetype off                  " required
+set nocompatible              " be iMproved, required
+filetype off                  " required
 " 
 " " set the runtime path to include Vundle and initialize
 " set rtp+=~/.vim/bundle/Vundle.vim
@@ -15,8 +15,12 @@
 " 
 " " All of your Plugins must be added before the following line
 " call vundle#end()            " required
+execute pathogen#infect()
+execute pathogen#helptags()
+filetype on
 filetype plugin indent on    " required
 
+nmap <Leader>f <Plug>(easymotion-f)
 
 " Use the Solarized Dark theme
 set background=dark
