@@ -38,3 +38,10 @@ set convert-meta off
 
 # Use Alt/Meta + Delete to delete the preceding word
 "\e[3;3~": kill-word
+
+
+set editing-mode vi
+set keymap vi-insert
+Control-Space: clear-screen
+set keymap vi-command
+Control-Space: clear-screen
