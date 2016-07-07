@@ -25,3 +25,5 @@ else
 	fi;
 fi;
 unset doIt;
+
+sh add_all_submodules.sh
