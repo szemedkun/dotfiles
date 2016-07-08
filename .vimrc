@@ -172,3 +172,8 @@ endif
 " nnoremap <silent> <expr> 0 ScreenMovement("0")
 " nnoremap <silent> <expr> ^ ScreenMovement("^")
 " nnoremap <silent> <expr> $ ScreenMovement("$"
+" let g:snips_trigger_key = '<C-CR>'
+" :let g:snips_trigger_key_backwards = '<c-tab>'
+" :imap <C-J> <Plug>snipMateNextOrTrigger
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-l>"
