@@ -20,8 +20,8 @@ execute pathogen#helptags()
 filetype on
 filetype plugin indent on    " required
 
-nmap <Leader>f <Plug>(easymotion-f)
-nmap <Leader>F <Plug>(easymotion-F)
+nmap f <Plug>(easymotion-f)
+nmap F <Plug>(easymotion-F)
 
 " Use the Solarized Dark theme
 set background=dark
