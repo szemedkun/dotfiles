@@ -175,5 +175,10 @@ endif
 " let g:snips_trigger_key = '<C-CR>'
 " :let g:snips_trigger_key_backwards = '<c-tab>'
 " :imap <C-J> <Plug>snipMateNextOrTrigger
+
+" Add key binding for snippets
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-l>"
+
+" Add *hql comment string
+autocmd FileType sql setlocal commentstring=--\ %s
