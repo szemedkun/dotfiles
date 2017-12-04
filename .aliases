@@ -1,20 +1,10 @@
 #!/usr/bin/env bash
 
-# SSH aliases
-alias mwork4="ssh -XY mwork4.dfw2.lijit.com"
-alias mwork1="ssh -XY mwork1.dfw2.lijit.com"
-alias mwork3="ssh -XY mwork3.dfw2.lijit.com"
-alias mwork2="ssh -XY mwork2.dfw2.lijit.com"
-alias dsapp1="ssh -XY dsapp1.dfw2.lijit.com"
-alias dsapp2="ssh -XY dsapp2.dfw2.lijit.com"
-alias fmwork="sftp mwork4.dfw2.lijit.com"
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias cl="clear"
 
 # Git shortcuts
 alias g='git status'
