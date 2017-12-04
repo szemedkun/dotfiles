@@ -11,8 +11,6 @@ set mark-symlinked-directories on
 # commands (i.e. more intelligent Up/Down behavior)
 bind '"\e[B": history-search-forward'
 bind '"\e[A": history-search-backward'
-set show-all-if-ambiguous on
-set completion-ignore-case on
 
 # Do not autocomplete hidden files unless the pattern explicitly begins with a dot
 set match-hidden-files off
@@ -39,11 +37,7 @@ set output-meta on
 set convert-meta off
 
 # Use Alt/Meta + Delete to delete the preceding word
-bind '"\e[3;3~": kill-word'
+# bind '"\e[3;3~": kill-word'
 
 
 set editing-mode vi
-set keymap vi-insert
-bind 'Control-Space: clear-screen'
-set keymap vi-command
-bind 'Control-Space: clear-screen'
